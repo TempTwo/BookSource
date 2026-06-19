@@ -736,68 +736,6 @@
     "weight" : 0
   },
   {
-    "bookSourceName" : "笔趣阁👍👍👍",
-    "bookSourceType" : 0,
-    "bookSourceUrl" : "http://www.biqukun.org/",
-    "bookUrlPattern" : "http://www.biqukun.org/\\d+/\\d+/",
-    "customOrder" : 1566,
-    "enabled" : true,
-    "enabledCookieJar" : false,
-    "enabledExplore" : false,
-    "header" : "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
-    "lastUpdateTime" : 1748221908070,
-    "respondTime" : 2283,
-    "ruleBookInfo" : {
-      "author" : "id.info@tag.p.0@text##作者：",
-      "canReName" : "",
-      "coverUrl" : "id.fmimg@tag.img.0@src",
-      "downloadUrls" : "",
-      "init" : "",
-      "intro" : "id.intro@tag.p.0@text",
-      "kind" : "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-      "lastChapter" : "id.info@tag.p.3@a@text",
-      "name" : "id.info@tag.h1.0@text",
-      "tocUrl" : "",
-      "updateTime" : "",
-      "wordCount" : ""
-    },
-    "ruleContent" : {
-      "content" : "id.content@html",
-      "imageDecode" : "",
-      "imageStyle" : "0",
-      "nextContentUrl" : "",
-      "replaceRegex" : "",
-      "sourceRegex" : "",
-      "title" : "",
-      "webJs" : ""
-    },
-    "ruleSearch" : {
-      "author" : "tag.td.2@text",
-      "bookList" : "class.grid@tag.tr!0",
-      "bookUrl" : "tag.td.0@tag.a.0@href",
-      "checkKeyWord" : "",
-      "coverUrl" : "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/d/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-      "intro" : "",
-      "kind" : "",
-      "lastChapter" : "tag.td.1@tag.span.0@tag.a.0@text##正文",
-      "name" : "tag.td.0@tag.a.0@text",
-      "updateTime" : "",
-      "wordCount" : ""
-    },
-    "ruleToc" : {
-      "chapterList" : "id.list@tag.dd",
-      "chapterName" : "tag.a@text",
-      "chapterUrl" : "tag.a@href",
-      "formatJs" : "",
-      "isVolume" : "",
-      "nextTocUrl" : "",
-      "preUpdateJs" : "",
-      "updateTime" : ""
-    },
-    "searchUrl" : "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
-    "weight" : 0
-  },
-  {
     "bookSourceName" : "笔趣小说",
     "bookSourceType" : 0,
     "bookSourceUrl" : "http://www.biqusa.com",
@@ -1531,67 +1469,6 @@
       "updateTime" : ""
     },
     "searchUrl" : "https://www.hzxsw.com/search.php?q={{key}}",
-    "weight" : 0
-  },
-  {
-    "bookSourceName" : "第一版主🎃#4",
-    "bookSourceType" : 0,
-    "bookSourceUrl" : "http://i.12bz.net#🎃",
-    "customOrder" : 1591,
-    "enabled" : true,
-    "enabledCookieJar" : false,
-    "enabledExplore" : false,
-    "header" : "{\n\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/84.0.4147.135\"\n}",
-    "lastUpdateTime" : 1733192539678,
-    "respondTime" : 13515,
-    "ruleBookInfo" : {
-      "author" : "class.block_txt2@tag.p.2@tag.a@text",
-      "canReName" : "",
-      "coverUrl" : "class.block_img2@tag.img.0@src",
-      "downloadUrls" : "",
-      "init" : "",
-      "intro" : "class.intro_info@html",
-      "kind" : "class.block_txt2@tag.p.3@tag.a@text&&.block_txt2@tag.p.4@text##状态：",
-      "lastChapter" : "class.block_txt2@tag.p.6@tag.a@text",
-      "name" : "class.block_txt2@tag.h2@text",
-      "tocUrl" : "",
-      "updateTime" : "",
-      "wordCount" : ""
-    },
-    "ruleContent" : {
-      "content" : "#nr1@html##\\-\\-.*",
-      "imageDecode" : "",
-      "imageStyle" : "",
-      "nextContentUrl" : "#pb_next@href",
-      "replaceRegex" : "",
-      "sourceRegex" : "#pb_next@href",
-      "title" : "",
-      "webJs" : ""
-    },
-    "ruleSearch" : {
-      "author" : "class.line@tag.a.2@text",
-      "bookList" : "class.line",
-      "bookUrl" : "class.line@tag.a.1@href",
-      "checkKeyWord" : "",
-      "coverUrl" : "img@src||tag.a.0@href##.*/(\\d+)/(\\d+)/##http://www.12bz.net/files/article/image/$1/$2/$2s.jpg",
-      "intro" : "",
-      "kind" : "class.line@tag.a.0@text##\\[|\\]",
-      "lastChapter" : "",
-      "name" : "class.line@tag.a.1@text",
-      "updateTime" : "",
-      "wordCount" : ""
-    },
-    "ruleToc" : {
-      "chapterList" : "class.chapter.1@tag.li",
-      "chapterName" : "@text",
-      "chapterUrl" : "tag.a@href",
-      "formatJs" : "",
-      "isVolume" : "",
-      "nextTocUrl" : ".right@tag.a@href",
-      "preUpdateJs" : "",
-      "updateTime" : ""
-    },
-    "searchUrl" : "/s.php,{\n\"method\": \"POST\",\n\"body\":\"type=articlename&s={{key}}\",\n\"charset\":\"gbk\"\n}",
     "weight" : 0
   },
   {
@@ -10038,6 +9915,68 @@
       "updateTime" : ""
     },
     "searchUrl" : "/modules/article/search.php?searchkey={{key}}",
+    "weight" : 0
+  },
+  {
+    "bookSourceName" : "笔趣阁",
+    "bookSourceType" : 0,
+    "bookSourceUrl" : "http://www.biqukun.org/",
+    "bookUrlPattern" : "http://www.biqukun.org/\\d+/\\d+/",
+    "customOrder" : 1566,
+    "enabled" : true,
+    "enabledCookieJar" : false,
+    "enabledExplore" : false,
+    "header" : "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
+    "lastUpdateTime" : 1748221908070,
+    "respondTime" : 2283,
+    "ruleBookInfo" : {
+      "author" : "id.info@tag.p.0@text##作者：",
+      "canReName" : "",
+      "coverUrl" : "id.fmimg@tag.img.0@src",
+      "downloadUrls" : "",
+      "init" : "",
+      "intro" : "id.intro@tag.p.0@text",
+      "kind" : "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+      "lastChapter" : "id.info@tag.p.3@a@text",
+      "name" : "id.info@tag.h1.0@text",
+      "tocUrl" : "",
+      "updateTime" : "",
+      "wordCount" : ""
+    },
+    "ruleContent" : {
+      "content" : "id.content@html",
+      "imageDecode" : "",
+      "imageStyle" : "0",
+      "nextContentUrl" : "",
+      "replaceRegex" : "",
+      "sourceRegex" : "",
+      "title" : "",
+      "webJs" : ""
+    },
+    "ruleSearch" : {
+      "author" : "tag.td.2@text",
+      "bookList" : "class.grid@tag.tr!0",
+      "bookUrl" : "tag.td.0@tag.a.0@href",
+      "checkKeyWord" : "",
+      "coverUrl" : "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/d/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro" : "",
+      "kind" : "",
+      "lastChapter" : "tag.td.1@tag.span.0@tag.a.0@text##正文",
+      "name" : "tag.td.0@tag.a.0@text",
+      "updateTime" : "",
+      "wordCount" : ""
+    },
+    "ruleToc" : {
+      "chapterList" : "id.list@tag.dd",
+      "chapterName" : "tag.a@text",
+      "chapterUrl" : "tag.a@href",
+      "formatJs" : "",
+      "isVolume" : "",
+      "nextTocUrl" : "",
+      "preUpdateJs" : "",
+      "updateTime" : ""
+    },
+    "searchUrl" : "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
     "weight" : 0
   }
 ]

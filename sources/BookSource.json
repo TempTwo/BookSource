@@ -552,67 +552,6 @@
     "weight" : 0
   },
   {
-    "bookSourceName" : "🎃七七读书🎃#2",
-    "bookSourceType" : 0,
-    "bookSourceUrl" : "http://www.77shuku.org#🎃",
-    "customOrder" : 1558,
-    "enabled" : true,
-    "enabledCookieJar" : true,
-    "enabledExplore" : false,
-    "header" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "lastUpdateTime" : 0,
-    "respondTime" : 1158,
-    "ruleBookInfo" : {
-      "author" : ".item:nth-child(1)@text",
-      "canReName" : "",
-      "coverUrl" : ".img_in > img@src",
-      "downloadUrls" : "",
-      "init" : "",
-      "intro" : "#intro@text",
-      "kind" : ".nav-mbx > a:nth-child(3)@text",
-      "lastChapter" : ".update > a@text",
-      "name" : "h1@text",
-      "tocUrl" : "",
-      "updateTime" : "",
-      "wordCount" : ".item:nth-child(2)@text##字数："
-    },
-    "ruleContent" : {
-      "content" : "#ChapterContents@html##最新网址：www.77shuku.org|全集txt下载.*|txt下载地址.*|手机阅读.*|你现在所看的.*",
-      "imageDecode" : "",
-      "imageStyle" : "",
-      "nextContentUrl" : "",
-      "replaceRegex" : "",
-      "sourceRegex" : "",
-      "title" : "",
-      "webJs" : ""
-    },
-    "ruleSearch" : {
-      "author" : "tag.span.0@text##作者：",
-      "bookList" : "class.BOX@tag.tr!0",
-      "bookUrl" : ".red.0@href",
-      "checkKeyWord" : "我的",
-      "coverUrl" : "",
-      "intro" : "",
-      "kind" : "tr:nth-child(2) > td:nth-child(2) > a@text",
-      "lastChapter" : ".chapter.0@text",
-      "name" : ".red.0@text",
-      "updateTime" : "",
-      "wordCount" : "tr:nth-child(2) > td:nth-child(8)@text"
-    },
-    "ruleToc" : {
-      "chapterList" : ".zjlist@tag.dd",
-      "chapterName" : "tag.a.0@text",
-      "chapterUrl" : "tag.a.0@href",
-      "formatJs" : "",
-      "isVolume" : "",
-      "nextTocUrl" : "",
-      "preUpdateJs" : "",
-      "updateTime" : ""
-    },
-    "searchUrl" : "/modules/article/search.php?searchkey={{key}}",
-    "weight" : 0
-  },
-  {
     "bookSourceName" : "95书包",
     "bookSourceType" : 0,
     "bookSourceUrl" : "http://www.95dushu.info/",
@@ -10038,6 +9977,67 @@
       "updateTime" : ""
     },
     "searchUrl" : "http://www.zwduxs.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight" : 0
+  },
+  {
+    "bookSourceName" : "七七读书",
+    "bookSourceType" : 0,
+    "bookSourceUrl" : "http://www.77shuku.org",
+    "customOrder" : 1558,
+    "enabled" : true,
+    "enabledCookieJar" : true,
+    "enabledExplore" : false,
+    "header" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "lastUpdateTime" : 0,
+    "respondTime" : 1158,
+    "ruleBookInfo" : {
+      "author" : ".item:nth-child(1)@text",
+      "canReName" : "",
+      "coverUrl" : ".img_in > img@src",
+      "downloadUrls" : "",
+      "init" : "",
+      "intro" : "#intro@text",
+      "kind" : ".nav-mbx > a:nth-child(3)@text",
+      "lastChapter" : ".update > a@text",
+      "name" : "h1@text",
+      "tocUrl" : "",
+      "updateTime" : "",
+      "wordCount" : ".item:nth-child(2)@text##字数："
+    },
+    "ruleContent" : {
+      "content" : "#ChapterContents@html##最新网址：www.77shuku.org|全集txt下载.*|txt下载地址.*|手机阅读.*|你现在所看的.*",
+      "imageDecode" : "",
+      "imageStyle" : "",
+      "nextContentUrl" : "",
+      "replaceRegex" : "",
+      "sourceRegex" : "",
+      "title" : "",
+      "webJs" : ""
+    },
+    "ruleSearch" : {
+      "author" : "tag.span.0@text##作者：",
+      "bookList" : "class.BOX@tag.tr!0",
+      "bookUrl" : ".red.0@href",
+      "checkKeyWord" : "我的",
+      "coverUrl" : "",
+      "intro" : "",
+      "kind" : "tr:nth-child(2) > td:nth-child(2) > a@text",
+      "lastChapter" : ".chapter.0@text",
+      "name" : ".red.0@text",
+      "updateTime" : "",
+      "wordCount" : "tr:nth-child(2) > td:nth-child(8)@text"
+    },
+    "ruleToc" : {
+      "chapterList" : ".zjlist@tag.dd",
+      "chapterName" : "tag.a.0@text",
+      "chapterUrl" : "tag.a.0@href",
+      "formatJs" : "",
+      "isVolume" : "",
+      "nextTocUrl" : "",
+      "preUpdateJs" : "",
+      "updateTime" : ""
+    },
+    "searchUrl" : "/modules/article/search.php?searchkey={{key}}",
     "weight" : 0
   }
 ]
